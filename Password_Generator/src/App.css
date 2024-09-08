@@ -1,0 +1,39 @@
+/* Add styles for mobile responsiveness */
+@media (max-width: 768px) {
+  .bg-[#FFFFFF] {
+    padding: 16px; /* Reduce padding */
+    margin: 16px; /* Reduce margin */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Adjust status heading size */
+  }
+  
+  .flex {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: stretch; /* Stretch items to fill width */
+  }
+  
+  .flex > div {
+    width: 100%; /* Ensure full width for inputs */
+    margin-bottom: 10px; /* Add space between inputs */
+  }
+
+  .input-range {
+    width: 100%; /* Full width for range input */
+  }
+  
+  .outline-none {
+    width: 100%; /* Full width for buttons */
+  }
+
+  /* Make buttons larger and easier to tap */
+  button {
+    padding: 12px 8px; 
+    font-size: 1rem;
+  }
+}
